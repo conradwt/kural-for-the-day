@@ -1,24 +1,81 @@
-# README
+# Kural For The Day
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+<Project Description>
 
-Things you may want to cover:
+This app powers Kural For The Day located [here](https://kural-for-the-day.herokuapp.com)
 
-* Ruby version
+## Project Metrics
 
-* System dependencies
+TBD
 
-* Configuration
+## Getting Started
 
-* Database creation
+## Software requirements
 
-* Database initialization
+- Rails 5.2.3 or higher
 
-* How to run the test suite
+- Ruby 2.6.x or higher
 
-* Services (job queues, cache servers, search engines, etc.)
+- PostgreSQL 11.2.x or higher
 
-* Deployment instructions
+## Navigate to the Rails application
 
-* ...
+```
+$ cd /path/to/rails/application
+```
+
+## Set configuration files
+
+e.g.
+
+```
+$ cp config/database.yml.template config/database.yml
+$ cp config/initializers/mail.rb.template config/initializers/mail.rb
+```
+
+Note: You may need to edit the above files as necessary for your system.
+
+## Create the database
+
+```
+$ pgstart
+$ rake db:create
+```
+
+## Migrating and seeding the database
+
+```
+$ rake db:migrate
+$ rake db:seed
+```
+
+## Starting the local server
+
+```
+$ rails server
+
+   or
+
+$ rails s
+```
+
+## Production Deployment
+
+```
+$ git push heroku master
+$ heroku run rake db:migrate
+```
+
+## Support
+
+Bug reports and feature requests can be filed with the rest for the Ruby on Rails project here:
+
+- [File Bug Reports and Features](https://github.com/conradwt/kural-for-the-day/issues)
+
+## License
+
+Kural For The Day is released under the [MIT license](https://mit-license.org).
+
+## Copyright
+
+copyright:: (c) Copyright 2019 Subashini Shanmugadas. All Rights Reserved.

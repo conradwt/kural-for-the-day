@@ -6,9 +6,7 @@ This app powers Kural For The Day located [here](https://kural-for-the-day.herok
 
 ## Project Metrics
 
-[![Maintainability](https://api.codeclimate.com/v1/badges/914cd42746fc927d1ea8/maintainability)](https://codeclimate.com/github/conradwt/kural-for-the-day/maintainability)
-
-[![Test Coverage](https://api.codeclimate.com/v1/badges/914cd42746fc927d1ea8/test_coverage)](https://codeclimate.com/github/conradwt/kural-for-the-day/test_coverage)
+[![Maintainability](https://api.codeclimate.com/v1/badges/914cd42746fc927d1ea8/maintainability)](https://codeclimate.com/github/conradwt/kural-for-the-day/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/914cd42746fc927d1ea8/test_coverage)](https://codeclimate.com/github/conradwt/kural-for-the-day/test_coverage)
 
 ## Getting Started
 

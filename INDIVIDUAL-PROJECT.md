@@ -41,10 +41,23 @@
    a) move the user-story into `in progress` on Github Project
 
    b) create a feature branch for the user story
+   
+   e.g.
+   
+   ```bash
+   git checkout master
+   git checkout -b user-creates-widget origin/master
+   ```
 
-   c) implement the user-story using TDD
+   c) create the feature spec and implement user story using TDD
+   
+   e.g.
+   
+   ```bash
+   rails g rspec:feature user_creates_widget
+   ```
 
-   d) submit a pull-request (PR) with issue(s) implemented for review which has has the following title and comment:
+   d) submit a pull-request (PR) with issue(s) implemented for review which has the following title and comment:
    
    e.g.
    
@@ -63,23 +76,6 @@
    ```
 
    e) if PR is approved, mentor will merge into `master` branch and update Heroku application. The student will deploy to Heroku and go to (9a). Otherwise, go back to step (9c)
-
-   Note: FYI, if the user story is `As a user, I can create a widget`, then one can create a branch something similar by doing the following:
-
-   e.g.
-
-   ```bash
-   git checkout master
-   git checkout -b user-creates-widget origin/master
-   ```
-
-   Next, one can use the following command to create the corresponding feature spec file as follows:
-
-   e.g.
-
-   ```bash
-   rails g rspec:feature user_creates_widget
-   ```
 
 10. create a project video and it should contain the following:
 

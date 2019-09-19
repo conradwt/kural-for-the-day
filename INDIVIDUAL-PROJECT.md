@@ -44,7 +44,23 @@
 
    c) implement the user-story using TDD
 
-   d) submit a pull-request (PR) with issue(s) implemented for review
+   d) submit a pull-request (PR) with issue(s) implemented for review which has has the following title and comment:
+   
+   e.g.
+   
+   title:
+   
+   ```text
+   As a user, I want to be able to see the thirukkural of the day.
+   ```
+   
+   comment:
+   
+   ```text
+   This PR supports the following feature:
+
+   resolves #14
+   ```
 
    e) if PR is approved, mentor will merge into `master` branch and update Heroku application. The student will deploy to Heroku and go to (9a). Otherwise, go back to step (9c)
 

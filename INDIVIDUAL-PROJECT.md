@@ -51,7 +51,7 @@
    title:
    
    ```text
-   As a user, I want to be able to see the thirukkural of the day.
+   As a user, I want to be able to create a widget so that I can update the catalog.
    ```
    
    comment:
@@ -59,7 +59,7 @@
    ```text
    This PR supports the following feature:
 
-   resolves #14
+   resolves #25
    ```
 
    e) if PR is approved, mentor will merge into `master` branch and update Heroku application. The student will deploy to Heroku and go to (9a). Otherwise, go back to step (9c)

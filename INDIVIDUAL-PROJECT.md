@@ -75,7 +75,7 @@
    resolves #25
    ```
 
-   e) if PR is approved, mentor will merge into `master` branch and update Heroku application. The student will deploy to Heroku and go to (9a). Otherwise, go back to step (9c)
+   e) if PR is approved, mentor will merge into `master` branch and deploy Heroku application and go to (9a). Otherwise, go back to step (9c)
 
 10. create a project video and it should contain the following:
 

@@ -14,7 +14,6 @@ RSpec.feature "user signup process", type: :feature do
     click_button 'Sign up'
 
     #assert
-    expect(page).to have_content 'Welcome! You have signed up successfully.'
-                                          
+    expect(page).to have_content 'Welcome! You have signed up successfully.'                                        
   end
 end

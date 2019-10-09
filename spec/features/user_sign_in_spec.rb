@@ -10,10 +10,10 @@ RSpec.feature "user sign in process", type: :feature do
     fill_in 'Email', with: user.email
     fill_in 'Password', with: user.password
 
-    #act
+    # act
     click_on 'Log in'
 
-    #assert
+    # assert
     expect(page).to have_content 'Success Signed in successfully.'
   end
 end

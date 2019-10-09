@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.feature "user sign out process", type: :feature do
   scenario 'user sign out' do
-    #arrange
+    # arrange
     user = create(:user)
 
     visit '/users/sign_in'
@@ -11,10 +11,10 @@ RSpec.feature "user sign out process", type: :feature do
     fill_in 'Password', with: user.password
     click_on 'Log in'
 
-    #act
+    # act
     click_on 'Sign out'
 
-    #assert
+    # assert
     expect(page).to have_content 'Success Signed out successfully.'
   end
 end

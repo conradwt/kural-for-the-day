@@ -10,9 +10,14 @@ gem 'rails',                    '~> 5.2.3'
 gem 'bootsnap',                 '>= 1.1.0', require: false
 gem 'bootstrap',                '~> 4.3', '>= 4.3.1'
 
+gem 'devise'
+
+gem 'faraday',                  '~> 1.0.0.pre.rc1'
+
 gem 'jquery-rails',             '~> 4.3', '>= 4.3.5'
 
 gem 'pg',                       '>= 0.18', '< 2.0'
+gem 'popper_js',                '>= 1.14.3', '< 2'
 gem 'puma',                     '~> 3.11'
 
 gem 'sass-rails',               '~> 5.0'
@@ -22,6 +27,10 @@ gem 'tether-rails',             '~> 1.4'
 gem 'turbolinks',               '~> 5'
 
 gem 'uglifier',                 '>= 1.3.0'
+
+source 'https://rails-assets.org' do
+  gem 'rails-assets-tether', '>= 1.3.3'
+end
 
 group :development, :test do
   gem 'byebug',                 platforms: %i[mri mingw x64_mingw]
@@ -41,6 +50,7 @@ group :development do
 
   gem 'web-console',            '>= 3.3.0'
 end
+
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]

@@ -21,7 +21,7 @@ gem 'popper_js',                '>= 1.14.3', '< 2'
 gem 'puma',                     '~> 3.11'
 
 gem 'sass-rails',               '~> 5.0'
-gem 'simple_form',              '~> 4.1'
+gem 'simple_form',              '~> 5.0'
 
 gem 'tether-rails',             '~> 1.4'
 gem 'turbolinks',               '~> 5'

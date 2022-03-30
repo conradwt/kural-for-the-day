@@ -18,7 +18,7 @@ gem 'jquery-rails',             '~> 4.3', '>= 4.3.5'
 
 gem 'pg',                       '>= 0.18', '< 2.0'
 gem 'popper_js',                '>= 1.14.3', '< 2'
-gem 'puma',                     '~> 3.11'
+gem 'puma',                     '~> 4.3'
 
 gem 'sass-rails',               '~> 5.0'
 gem 'simple_form',              '~> 4.1'
